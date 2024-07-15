@@ -1,0 +1,23 @@
+<p>form works!</p>
+<form (ngSubmit)="onSubmit()">
+      <p>
+        <label for="Initial">Initial Investiment</label>
+        <input type="text" id="Initial" name="Initial"  [(ngModel)]="initial" />
+      </p>
+    
+      <p>
+        <label for="Annual">Annual Investiment</label>
+        <input type="text" id="Annual" name="Annual"  [(ngModel)]="parameter.annual" />
+      </p>
+      <p>
+        <label for="Expected">Expected Investiment</label>
+        <input type="text" id="Expected" name="Expected"  [(ngModel)]="parameter.expected" />
+      </p>
+
+      <p>
+        <label for="Duration">Duration Investiment</label>
+        <input type="text" id="Duration" name="Duration"  [(ngModel)]="parameter.duration" />
+      </p>
+
+
+    </form>
